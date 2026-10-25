@@ -1,4 +1,4 @@
-uic8,zdc,name
+uic8;zdc;name
 87111849;68385;Marne-la-Vallée Chessy
 87113217;72041;Noisy-le-Sec
 87113407;72037;Bondy
@@ -281,22 +281,22 @@ uic8,zdc,name
 87697300;65227;Épinay - Villetaneuse
 87697318;72396;Villetaneuse Université
 87697326;72787;Pierrefitte - Stains
-87697359;72641;Gare du Bourget
+87697359;72641;Gare du Bourget T11
 87716837;423056;Vigne Blanche
-87723171;72486;Bobigny - Pablo Picasso
+87723171;72486;Bobigny - Pablo Picasso (Métro)
 87730069;68266;Val d'Europe
 87731430;71517;La Défense
 87731448;71379;Neuilly Porte Maillot
-87732735;73695;Fort d'Aubervilliers
-87732743;72358;Saint-Denis-Université
+87732735;73695;Fort d'Aubervilliers (Métro)
+87732743;72358;Saint-Denis-Université (Métro)
 87733071;64382;Saint-Nom-la-Bretèche - Forêt de Marly
-87733089;73731;Saint-Cyr
+87733089;73731;Saint-Cyr T13
 87744359;62169;Provins Mairie
-87745091;60915;Épinay-sur-Orge
-87746032;60450;Évry - Courcouronnes
-87754853;425941;Melun
-87754861;73939;Melun
-87754879;61811;Melun
+87745091;60915;Épinay-sur-Orge T12
+87746032;60450;Évry - Courcouronnes T12
+87754853;425941;Tribunal Administratif / Melun
+87754861;73939;Gare Routière Mail Gaillardon / Melun
+87754879;61811;Melun ZAE Chamlys
 87754986;68105;Bussy-Saint-Georges
 87754994;68385;Marne-la-Vallée Chessy
 87758037;70956;Nanterre Université
@@ -352,7 +352,7 @@ uic8,zdc,name
 87758870;62890;Gif-sur-Yvette
 87758888;62951;Courcelle sur Yvette
 87758896;62978;Saint-Rémy-lès-Chevreuse
-87766634;70358;Maisons-Alfort-Les Juilliottes
+87766634;70358;Maisons-Alfort-Les Juilliottes (métro)
 87785436;73620;Saint-Michel Notre-Dame
 87001479;73699;Aéroport Charles de Gaulle 2 (Terminal 2)
 87111278;71545;Porte de Clichy
@@ -552,17 +552,210 @@ uic8,zdc,name
 87686030;73626;Gare de Lyon
 87686030;71633;Rambouillet / Gare de Lyon
 87686667;71607;Paris-Bercy Bourgogne - Pays d'Auvergne
-87694240;72057;Pont de Levallois-Bécon
-87716860;65632;Mairie de Verneuil-sur-Seine
-87716878;65517;Jean Jaurès - Vernouillet
+87694240;72057;Pont de Levallois-Bécon (métro)
+87716860;65632;Mairie de Verneuil-sur-Seine (bus J)
+87716878;65517;Jean Jaurès - Vernouillet (bus J)
 87758003;71347;Charles de Gaulle - Étoile
 87758011;71517;La Défense (Grande Arche)
 87758029;70945;Nanterre - Préfecture
 87758607;474151;Châtelet - Les Halles
 87758631;71056;Denfert-Rochereau
 87758847;62892;Orsay-Ville
-87765230;490784;Saint-Denis Pleyel
+87765230;490784;Saint-Denis Pleyel (métro)
 87987511;479955;Les Sablons
 87988709;72033;Remise à Jorelle
 87113001;71359;Gare de l'Est
 87113001;480614;Verdun / Gare de l'Est
+87697334;426083;Stains - La Cerisaie T11
+87697342;426093;Dugny - La Courneuve T11
+87697292;72383;Épinay-sur-Seine TT
+87733659;64246;Noisy-le-Roi TT
+87733667;73602;Mareil-Marly TT
+87704254;73354;République Marx Dormoy T4
+87704262;73362;Léon Blum T4
+87704270;73364;Maurice Audin T4
+87704288;477288;Clichy-sous-Bois Mairie T4
+87704296;73350;Romain Rolland T4
+87704304;477278;Clichy-Montfermeil T4
+87704312;477285;Notre-Dame-des-Anges T4
+87704320;478648;Arboretum T4
+87704338;73329;Hôpital de Montfermeil T4
+87710939;480927;Camp des loges T13
+87733063;64589;Saint-Germain-en-Laye T13
+87116244;67802;Mortcerf (bus)
+87113860;73360;Gargan (T4)
+87113845;72028;Les Coquetiers (T4)
+87113852;73334;Les Pavillons-sous-Bois (T4)
+87113894;73411;Freinville Sevran (T4)
+87113886;73709;L'Abbaye (T4)
+87431791;411284;Rougemont Chanteloup (T4)
+87988717;411281;Lycée Henri Sellier (T4)
+87746024;60387;Bois Briard (T12)
+87746016;60448;Traité de Rome (T12)
+87393645;62667;Gravigny Balizy (T12)
+87393652;60985;Petit Vaux (T12)
+87745984;486998;Bois de Saint-Eutrope (T12)
+87745844;60856;Amédée Gordini (T12)
+87745851;60776;Ferme Neuve (T12)
+87745786;60892;Parc du Château (T12)
+87745794;486996;Coteaux de l'Orge (T12)
+87725457;486959;Champlan (T12)
+87725465;486992;Massy Europe (T12)
+87733675;64566;Fourqueux - Bel Air (T13)
+87733683;64622;Lisière Pereire (T13)
+87710921;480952;Les Portes de Saint-Cyr (T13)
+87710913;64049;Allée Royale (T13)
+87710780;480951;Bailly (T13)
+87988709;72017;L'Étoile (bus T4, rattaché à Remise à Jorelle)
+87207506;71517;La Défense
+87207514;71422;Puteaux (T2)
+87207522;70845;Belvédère (T2)
+87207530;70811;Suresnes-Longchamps (T2)
+87207548;70763;Les Côteaux (T2)
+87207555;73613;Les Milons (T2)
+87207563;70726;Parc-St-Cloud (T2)
+87207571;70692;Musée-Sèvres (T2)
+87207597;69533;Brimborion (T2)
+87207613;70587;Meudon-sur-Seine (T2)
+87207639;70622;Moulineaux (T2)
+87207647;70662;Jacques-Henri Lartigue (T2)
+87432823;483238;Bezons Grand Cerf Noctilien
+87432831;73605;Conflans-Fin-d’Oise Noctilien (N155)
+87432849;66095;Conflans Sainte Honorine Noctilien (N155)
+87432831;65928;Conflans-Fin-d’Oise Noctilien
+87432849;66042;Conflans Sainte Honorine Noctilien
+87432856;490947;Courbevoie Becon Noctilien
+87432864;66484;Eragny-sur-Oise Noctilien
+87432872;73608;Residence du Parc Essec Noctil
+87432880;64789;Houilles Noctilien
+87432898;72148;La Garenne Colombes Noctilien
+87432906;66436;Neuville Universite Noctilien
+87432914;64977;Sartrouville Noctilien
+87432948;68476;Chessy Noctilien
+87432955;68494;Lagny Thorigny Noctilien
+87432963;71718;Val de Fontenay Noctilien
+87433045;67658;Gretz Armainvilliers Ctre Noct
+87433078;497830;Saint Thiebault des Vignes Noctil
+87433086;68117;Collegien Noctilien
+87433094;68105;Bussy Saint Georges Noctilien
+87433102;68266;Val d’Europe Serris Montévrain Noctilien
+87433110;71935;Rosny-sous-Bois Noctilien
+87433128;426280;Rosny Bois Perrier Noctilien
+87433136;67734;Ozoir la Ferriere Centre Noct
+87433144;67897;Emerainville Pontault-Combault Noctilien
+87433151;71799;Porte de Bagnolet Noctilien
+87433169;71311;Republique Noctilien
+87433177;73190;Neuilly Plaisance Noctilien
+87433185;73747;Montevrain Noctilien
+87433193;71718;Fontenay le Perreux Noctilien
+87433201;73217;Ville Evrard Noctilien
+87495713;63284;Aerogare Orly Ouest Noctilien
+87495721;413442;Aristide Briand Noctilien
+87495739;69656;Fer A Cheval Noctilien
+87495747;69722;Les Tilleuls Noctilien
+87495770;63547;Franche Comte Noctilien
+87496695;478505;Juvisy TGV
+87523548;63278;Aerogare Orly Sud Noctilien
+87574905;69568;Villeneuve Saint Georges Noctilie
+87574913;63071;Vigneux-sur-Seine Noctilien
+87574921;478505;Juvisy Noctilien
+87574939;60981;Viry Chatillon Noctilien
+87574947;60797;Grigny Centre Noctilien
+87574954;60450;Evry Courcouronnes Noctilien
+87574962;60422;Bras de Fer Noctilien
+87574970;60309;Corbeil Essonne Noctilien
+87588210;73097;Villiers Sur Marne - Noctilien
+87588228;68385;Marne-la-Vallée - Chessy Noctilien
+87588236;60247;Brétigny - Noctilien
+87588244;60536;St-Michel-sur-Orge - Noctilien
+87588251;60785;Sainte-Geneviève-des-Bois - Noctilien
+87588269;60915;Épinay-sur-Orge Noctilien
+87588277;60987;Savigny-sur-Orge - Noctilien
+87588285;71572;Bibliothèque François Mitterand - Noctilien
+87588301;71135;Gare D'Austerlitz - Noctilien
+87588392;73596;Roissypôle
+87590463;73625;Maisons Alfort - Alfortville - Noctilien
+87590471;73624;Vert De Maison Noctilien
+87590489;69842;Villeneuve Prairie Noctilien
+87590497;69671;Villeneuve - Triage - Noctilien
+87590505;62558;Combs-la-Ville - Quincy Noctilien
+87590513;62412;Lieusaint Moissy Noctilien
+87590521;62290;Savigny Temple Nandy Noctilien
+87590547;62176;Cesson Noctilien
+87590554;62003;Le Mée - Noctilien
+87590562;61926;Melun Noctilien
+87590570;63134;Athis Mons Noctilien
+87590588;69554;Ablon Noctilien
+87590596;69625;Villeneuve-le-Roi Noctilien
+87590604;69639;Orly Ville Noctilien
+87590612;69852;Choisy Le Roi Noctilien
+87590620;70064;Les Ardoines - Noctilien
+87590646;70313;Vitry Sur Seine Noctilien
+87590653;424396;Ivry Sur Seine Noctilien
+87591149;73620;Saint-Michel Notre-Dame - Noctilien
+87591156;71139;Gare Montparnasse Noctilien
+87591164;463754;Sèvres - Rive-Gauche - Noctilien
+87591172;63072;Montgeron - Crosnes - Noctilien
+87591180;71359;Gare De L'Est Noctilien
+87591750;62596;Boussy St-Antoine - Noctilien
+87591768;67476;Brunoy Noctilien
+87591776;63044;Yerres Noctilien
+87591784;73718;Chaville Rive Gauche Noctilien
+87591792;63923;Viroflay Rive Gauche Noctilien
+87591800;63886;Porchefontaine - Noctilien
+87591818;63880;Versailles Chantiers Noctilien
+87591826;73721;Versailles - Rive-Gauche -  Noctilien
+87591834;73731;St Cyr - Noctilien
+87591859;63812;St-Quentin-en-Yvelines - Noctilien
+87591867;463850;Trappes Noctilien
+87591875;63426;La Verrière Noctilien
+87594929;71410;Gare Du Nord Noctilien
+87594937;72421;Pantin Noctilien
+87594945;72646;Aulnay Sous Bois Noctilien
+87594952;73439;Sevran Livry Noctilien
+87594960;68407;Chelles Gournay Noctilien
+87594978;68419;Vaires Torcy Noctilien
+87594986;71609;Nogent Le Perreux Noctilien
+87594994;68653;Esbly Noctilien
+87595017;68963;Meaux Noctilien
+87595025;67839;Roissy En Brie Noctilien
+87595033;462934;Ozoir-la-Ferrière Noctilien
+87595041;67658;Gretz Armainvilliers Noctilien
+87595058;67625;Tournan-en-Brie - Noctilien
+87600114;71370;Paris Saint-Lazare - Noctilien
+87600122;66335;Montigny-Beauchamp - Noctilien
+87600130;66491;Pierrelaye Noctilien
+87600155;66659;St-Ouen-L'Aumône - Liesse - Noctilien
+87600163;66803;St-Ouen L'Aumône - Noctilien
+87600171;493509;Pontoise Noctilien
+87600189;66696;Cergy Préfecture Noctilien
+87600197;66858;Cergy St-Christophe - Noctilien
+87600205;66834;Cergy Le Haut - Noctilien
+87604835;64949;Villennes-sur-Seine - Noctilien
+87604843;64883;Poissy Noctilien
+87604850;65691;Vernouillet - Verneuil - Noctilien
+87604868;65985;Les Clairières de Verneuil - Noctilien
+87604876;65994;Les Mureaux - Noctilien
+87604884;65770;Mantes Station - Noctilien
+87604892;65931;Mantes-la-Jolie - Noctilien
+87605410;68129;Torcy Mairie
+87605428;71453;Pereire-Levallois Noctilien
+87605436;65048;Maisons-Laffitte - Noctilien
+87605444;73604;Acheres Ville Noctilien
+87606517;71475;Pont Cardinet - Noctilien
+87606525;72073;Clichy Levallois - Noctilien
+87606533;72132;Asnières - Noctilien
+87606541;72225;Les Grésillons - Noctilien
+87606558;65305;St-Gratien - Noctilien
+87606566;65669;Ermont-Eaubonne - Noctilien
+87606574;65441;Sannois Noctilien
+87606582;66005;Franconville - Le Plessis-Bouchard - Noctilien
+87612978;65190;Achères-Grand-Cormier - Noctilien
+87704817;73798;Rosa Parks Noctilien
+87704825;72430;Porte de la Villette Noctilien
+87716720;61848;Dammarie Farcy Noctilien
+87716738;61914;Dammarie Jean Jaurès Noctilien
+87716845;64919;Place Verte Villennes
+87716852;415628;Orgeval Novotel Pont A13
+87514604;73605;Conflans-Fin-d’Oise TGV
+87514596;65931;Mantes-la-Jolie TGV
