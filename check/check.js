@@ -118,8 +118,8 @@ const trainlineRes = await trainlineReq.text();
 // Contains surprisingly enriched data about IDF stations!
 console.log("Fetching TER data...");
 // /!\ WARNING /!\ : file must be downloaded manually first in this directory!
-// https://www.ter.sncf.com/_next/data/DtFt70D_mtuFYZsfhU2D0/normandie/se-deplacer/gares/liste-des-gares.json",
-// The website has strong mecanisms to prevent bots and scripts to access its files 
+// https://www.ter.sncf.com/_next/data/DtFt70D_mtuFYZsfhU2D0/normandie/se-deplacer/gares/liste-des-gares.json,
+// The website has strong mechanisms to prevent bots and scripts to access its files 
 const terFile = readFileSync("./liste-des-gares.json", "utf8");
 
 const terData = JSON.parse(terFile);
