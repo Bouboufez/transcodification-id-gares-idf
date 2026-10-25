@@ -2,7 +2,7 @@
 
 ## Objectif
 
-Ce simple script écrit en JavaScript a pour objectif de vérifier que les données du fichier [`matching.csv`](../matching.csv) sont aussi correctes et exhaustives que possibles.
+Ce simple script écrit en JavaScript a pour objectif de vérifier que les données du fichier [`transcodification.csv`](../transcodification.csv) sont aussi correctes et exhaustives que possibles.
 
 ## Exécuter la vérification
 
@@ -39,7 +39,7 @@ Pour cette étape, on utilise différents jeux de données d'IDFM de la façon s
 
 1. Une liste de lignes ciblées est prédéfinie dans le code (RER, Transilien, Tram-trains, TER, et leurs bus de substitution associés).
 2. Pour chaque ligne, on récupère la liste des arrêts de la ligne.
-3. Pour chaque arrêt ainsi récupéré, on vérifie que son identifiant ZDC soit présent au moins une fois dans le fichier [`matching.csv`](../matching.csv).
+3. Pour chaque arrêt ainsi récupéré, on vérifie que son identifiant ZDC soit présent au moins une fois dans le fichier [`transcodification.csv`](../transcodification.csv).
 
 ### 3. Vérification de l'exhaustivité SNCF
 
@@ -52,4 +52,4 @@ De la même façon, on récupère des codes UIC et on vérifie leur présence da
 
 **Ce script est loin d'être parfait dans son état actuel**, mais a le mérite d'effectuer les vérifications de base.
 
-Son principal défaut découle du manque d'exhaustivité des différentes sources de données SNCF pour obtenir tous les arrêts (y compris routiers) avec leur code UIC. Il faut piocher les données à différents endroits sans tout avoir, si bien que le script marque encore de nombreuses entrées du fichier [`matching.csv`](../matching.csv) comme possédant un code UIC inconnu (**ce qui rend le script assez verbeux**), alors que ce code UIC existe sans être présent dans les jeux de données utilisés en entrée. Peut-être un projet (ambitieux) pour moi à l'avenir de tenter d'en faire un jeu de données national unique et le plus exhaustif possible ?
+Son principal défaut découle du manque d'exhaustivité des différentes sources de données SNCF pour obtenir tous les arrêts (y compris routiers) avec leur code UIC. Il faut piocher les données à différents endroits sans tout avoir, si bien que le script marque encore de nombreuses entrées du fichier [`transcodification.csv`](../transcodification.csv) comme possédant un code UIC inconnu (**ce qui rend le script assez verbeux**), alors que ce code UIC existe sans être présent dans les jeux de données utilisés en entrée. Peut-être un projet (ambitieux) pour moi à l'avenir de tenter d'en faire un jeu de données national unique et le plus exhaustif possible ?

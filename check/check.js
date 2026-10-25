@@ -174,8 +174,8 @@ const safe_uic = [
   87716878, 87765230,
 ];
 
-console.log("Opening matching file...");
-const file = readFileSync("../matching.csv", "utf8");
+console.log("Opening transcodification file...");
+const file = readFileSync("../transcodification.csv", "utf8");
 const indexByUic = {};
 const indexByZdc = {};
 
@@ -192,7 +192,7 @@ for (const line of file.split("\n").slice(1)) {
 
   // Check if these IDs are known
   if (idfmData[zdc] == undefined) {
-    console.error("Matching " + line.trim() + " has unknown zdc!");
+    console.error("Transcodification " + line.trim() + " has unknown zdc!");
   }
   if (
     sncfData[uic8] == undefined &&
@@ -200,7 +200,7 @@ for (const line of file.split("\n").slice(1)) {
     safe_uic.includes(parseInt(uic8)) == false
   ) {
     // This should complain about TramTrain stops that are tram stops and not train stops
-    console.error("Matching " + line.trim() + " has unknown uic8!");
+    console.error("Transcodification " + line.trim() + " has unknown uic8!");
   }
 
   // Check if coordinates are close
@@ -223,7 +223,7 @@ for (const line of file.split("\n").slice(1)) {
       Math.abs(idfmLat - sncfLat) * 100 >= 1
     ) {
       console.warn(
-        "Different coordinates for matching " +
+        "Different coordinates for transcodification " +
           line.trim() +
           "! IDFM: " +
           idfmLon +

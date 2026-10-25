@@ -2,7 +2,7 @@
 
 ## Présentation
 
-Le fichier [`matching.csv`](./matching.csv) a pour objectif de faire correspondre les identifiants IDFM d'arrêts de transport en commun aux codes UIC normalisés, utilisés notamment par la SNCF, afin de pouvoir relier les données d'arrêts utilisant ces deux systèmes d'identifiants.
+Le fichier [`transcodification.csv`](./transcodification.csv) a pour objectif de faire correspondre les identifiants IDFM d'arrêts de transport en commun aux codes UIC normalisés, utilisés notamment par la SNCF, afin de pouvoir relier les données d'arrêts utilisant ces deux systèmes d'identifiants.
 
 Le fichier se présente sous la forme d'un fichier CSV (le séparateur est le point-virgule), contenant :
 
@@ -28,7 +28,7 @@ Celui-ci a ensuite été **largement enrichi manuellement**, afin d'être le plu
 
 ### Ce jeu de données n'est pas garanti exact et complet
 
-Le fichier [`matching.csv`](./matching.csv) n'étant pas officiel, et contenant de nombreuses données reliées manuellement, n'est pas garanti exact et complet.
+Le fichier [`transcodification.csv`](./transcodification.csv) n'étant pas officiel, et contenant de nombreuses données reliées manuellement, n'est pas garanti exact et complet.
 
 Bien qu'au moins les principales gares et arrêts ne devraient pas présenter de souci, il est fort probable que des arrêts routiers (pour des substitutions routières), qui constituent la face immergée de l'iceberg qu'est ce jeu de données, soient manquants. Il n'est pas non plus impossible que des erreurs ou imprécisions soient présentes, notamment concernant les arrêts supprimés ou dépréciés (gares fermées ou ayant quitté le RFN, arrêts "Noctilien", etc.).
 
@@ -38,7 +38,7 @@ Cependant, **pour vérifier et garantir la qualité et l'exhaustivité des donn�
 
 ### La relation entre identifiants UIC et IDFM n'est pas une relation 1 <-> 1 !
 
-De par leur nature très différente (voir [plus bas](#signification-des-identifiants)), la relation créée par le fichier [`matching.csv`](./matching.csv) entre les codes UIC et les identifiants IDFM n'est pas une relation 1 <-> 1. Même si, dans la plupart des cas, un code UIC sera associé à un seul identifiant IDFM et inversement, un code UIC peut être relié à plusieurs identifiants IDFM, et un identifiant IDFM peut être associé à plusieurs codes UIC.
+De par leur nature très différente (voir [plus bas](#signification-des-identifiants)), la relation créée par le fichier [`transcodification.csv`](./transcodification.csv) entre les codes UIC et les identifiants IDFM n'est pas une relation 1 <-> 1. Même si, dans la plupart des cas, un code UIC sera associé à un seul identifiant IDFM et inversement, un code UIC peut être relié à plusieurs identifiants IDFM, et un identifiant IDFM peut être associé à plusieurs codes UIC.
 
 Quelques exemples simples (il y a bien pire !) :
 
