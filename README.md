@@ -19,6 +19,7 @@ Le fichier de transcodification, fourni en pièce jointe du [GTFS Transilien de 
 Celui-ci a ensuite été **largement enrichi manuellement**, afin d'être le plus complet possible. Voici les différentes sources qui ont permis cet enrichissement :
 
 - [Le référentiel des arrêts de l'Open Data d'IDFM : arrêts, zones d'arrêts, zones de correspondance](https://data.iledefrance-mobilites.fr/explore/dataset/arrets/information/)
+- [Le jeu de données "Arrêts et lignes associées" de l'Open Data d'IDFM](https://data.iledefrance-mobilites.fr/explore/dataset/arrets-lignes/information/?disjunctive.route_long_name&disjunctive.id)
 - [Le jeu de données "Liste des gares" publié par SNCF Réseau](https://ressources.data.sncf.com/explore/dataset/liste-des-gares/information)
 - [Le fichier "stations.csv" des gares européennes, produit par Trainline et disponible sur GitHub](https://github.com/trainline-eu/stations/tree/master)
 - [Les listes de gares utilisées par les sites TER SNCF](https://ter.sncf.com/)
@@ -32,6 +33,8 @@ Le fichier [`matching.csv`](./matching.csv) n'étant pas officiel, et contenant 
 Bien qu'au moins les principales gares et arrêts ne devraient pas présenter de souci, il est fort probable que des arrêts routiers (pour des substitutions routières), qui constituent la face immergée de l'iceberg qu'est ce jeu de données, soient manquants. Il n'est pas non plus impossible que des erreurs ou imprécisions soient présentes, notamment concernant les arrêts supprimés ou dépréciés (gares fermées ou ayant quitté le RFN, arrêts "Noctilien", etc.).
 
 Cependant, **pour vérifier et garantir la qualité et l'exhaustivité des données, un script de vérification est disponible dans le dossier `check`**. Sa documentation détaillée se trouve dans [le fichier README.md du dossier](check/README.md).
+
+**Si vous constatez une erreur ou un manque dans les données, n'hésitez pas à me le faire savoir** afin que ce soit corrigé, en [**ouvrant une issue**](https://github.com/Bouboufez/transcodification-id-gares-idf/issues/new) ou en me contactant.
 
 ### La relation entre identifiants UIC et IDFM n'est pas une relation 1 <-> 1 !
 
